@@ -1,0 +1,280 @@
+{
+    "success": true,
+    "errorCode": 0,
+    "errorMsg": "",
+    "data": {
+        "brand": [{
+            "id": 127,
+            "type": "Book",
+            "public": 1,
+            "name": "SOFA 2",
+            "slug": "sofa3",
+            "user_id": 52,
+            "description": "金融云产品 - 中间件 - SOFA 2",
+            "created_at": "2016-09-10T22:49:27.000Z",
+            "updated_at": "2017-07-26T08:39:28.000Z",
+            "user": {
+              "id": 52,
+              "login": "antcloud",
+              "name": "金融云(产品文档)",
+              "work_id": null,
+              "email": null,
+              "avatar_url": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+              "created_at": "2016-08-21T23:40:59.000Z",
+              "updated_at": "2016-09-10T00:19:12.000Z"
+              
+            },
+            "namespace": "antcloud/sofa3" 
+        },
+    {
+        "id": 127,
+        "type": "Book",
+        "public": 1,
+        "name": "SOFA 3",
+        "slug": "hnytca",
+        "user_id": 52,
+        "description": "金融云产品 - 中间件 - SOFA 3",
+        "created_at": "2016-09-10T22:49:27.000Z",
+        "updated_at": "2017-07-26T08:39:28.000Z",
+        "user": {
+          "id": 52,
+          "login": "antcloud",
+          "name": "金融云(产品文档)",
+          "work_id": null,
+          "email": null,
+          "avatar_url": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+          "created_at": "2016-08-21T23:40:59.000Z",
+          "updated_at": "2016-09-10T00:19:12.000Z"
+          
+        },
+        "namespace": "antcloud/sofa3" 
+    },
+    {
+        "id": 127,
+        "type": "Book",
+        "public": 1,
+        "name": "SOFA 3",
+        "slug": "nsqoze",
+        "user_id": 52,
+        "description": "金融云产品 - 中间件 - SOFA 3",
+        "created_at": "2016-09-10T22:49:27.000Z",
+        "updated_at": "2017-07-26T08:39:28.000Z",
+        "user": {
+          "id": 52,
+          "login": "antcloud",
+          "name": "金融云(产品文档)",
+          "work_id": null,
+          "email": null,
+          "avatar_url": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+          "created_at": "2016-08-21T23:40:59.000Z",
+          "updated_at": "2016-09-10T00:19:12.000Z"
+          
+        },
+        "namespace": "antcloud/sofa3" 
+    },
+    {
+        "id": 127,
+        "type": "Book",
+        "public": 1,
+        "name": "SOFA 3",
+        "slug": "hjkn",
+        "user_id": 52,
+        "description": "金融云产品 - 中间件 - SOFA 3",
+        "created_at": "2016-09-10T22:49:27.000Z",
+        "updated_at": "2017-07-26T08:39:28.000Z",
+        "user": {
+          "id": 52,
+          "login": "antcloud",
+          "name": "金融云(产品文档)",
+          "work_id": null,
+          "email": null,
+          "avatar_url": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+          "created_at": "2016-08-21T23:40:59.000Z",
+          "updated_at": "2016-09-10T00:19:12.000Z"
+          
+        },
+        "namespace": "antcloud/sofa3" 
+    },
+    {
+        "id": 127,
+        "type": "Book",
+        "public": 1,
+        "name": "SOFA 3",
+        "slug": "awg99c",
+        "user_id": 52,
+        "description": "金融云产品 - 中间件 - SOFA 3",
+        "created_at": "2016-09-10T22:49:27.000Z",
+        "updated_at": "2017-07-26T08:39:28.000Z",
+        "user": {
+          "id": 52,
+          "login": "antcloud",
+          "name": "金融云(产品文档)",
+          "work_id": null,
+          "email": null,
+          "avatar_url": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+          "created_at": "2016-08-21T23:40:59.000Z",
+          "updated_at": "2016-09-10T00:19:12.000Z"
+          
+        },
+        "namespace": "antcloud/sofa3" 
+    },
+    {
+        "id": 127,
+        "type": "Book",
+        "public": 1,
+        "name": "SOFA 3",
+        "slug": "qei3lc",
+        "user_id": 52,
+        "description": "金融云产品 - 中间件 - SOFA 3",
+        "created_at": "2016-09-10T22:49:27.000Z",
+        "updated_at": "2017-07-26T08:39:28.000Z",
+        "user": {
+          "id": 52,
+          "login": "antcloud",
+          "name": "金融云(产品文档)",
+          "work_id": null,
+          "email": null,
+          "avatar_url": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+          "created_at": "2016-08-21T23:40:59.000Z",
+          "updated_at": "2016-09-10T00:19:12.000Z"
+          
+        },
+        "namespace": "antcloud/sofa3" 
+    }
+
+
+
+
+
+
+],
+        "material": [
+            {
+            "id": 123,
+            "category": "插画",
+            "title": "支付宝插花库",
+            "desc": "内部持续迭代和完善中，整理清晰确认的部分会同步到外部",
+            "modified_at": "2018-12-01 00:00:00",
+            "creator": "往尘",
+            "thumb": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+            "source": "https://gw.alipayobjects.com/os/rmsportal/TYQXRlAIHlzEsfAYwkDz.MP4",
+            "tag": "插画,支付宝",
+            "designer": "乌丸",
+            "star": 156,
+            "download": 156
+        },
+        {
+            "id": 123,
+            "category": "插画",
+            "title": "支付宝插花库",
+            "desc": "内部持续迭代和完善中，整理清晰确认的部分会同步到外部",
+            "modified_at": "2018-12-01 00:00:00",
+            "creator": "往尘",
+            "thumb": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+            "source": "https://gw.alipayobjects.com/os/rmsportal/TYQXRlAIHlzEsfAYwkDz.MP4",
+            "tag": "插画,支付宝",
+            "designer": "乌丸",
+            "star": 156,
+            "download": 156
+        },
+        {
+            "id": 123,
+            "category": "插画",
+            "title": "支付宝插花库",
+            "desc": "内部持续迭代和完善中，整理清晰确认的部分会同步到外部",
+            "modified_at": "2018-12-01 00:00:00",
+            "creator": "往尘",
+            "thumb": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+            "source": "https://gw.alipayobjects.com/os/rmsportal/TYQXRlAIHlzEsfAYwkDz.MP4",
+            "tag": "插画,支付宝",
+            "designer": "乌丸",
+            "star": 156,
+            "download": 156
+        },
+        {
+            "id": 123,
+            "category": "插画",
+            "title": "支付宝插花库",
+            "desc": "内部持续迭代和完善中，整理清晰确认的部分会同步到外部",
+            "modified_at": "2018-12-01 00:00:00",
+            "creator": "往尘",
+            "thumb": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+            "source": "https://gw.alipayobjects.com/os/rmsportal/TYQXRlAIHlzEsfAYwkDz.MP4",
+            "tag": "插画,支付宝",
+            "designer": "乌丸",
+            "star": 156,
+            "download": 156
+        },
+        {
+            "id": 123,
+            "category": "插画",
+            "title": "支付宝插花库",
+            "desc": "内部持续迭代和完善中，整理清晰确认的部分会同步到外部",
+            "modified_at": "2018-12-01 00:00:00",
+            "creator": "往尘",
+            "thumb": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+            "source": "https://gw.alipayobjects.com/os/rmsportal/TYQXRlAIHlzEsfAYwkDz.MP4",
+            "tag": "插画,支付宝",
+            "designer": "乌丸",
+            "star": 156,
+            "download": 156
+        },
+        {
+            "id": 123,
+            "category": "插画",
+            "title": "支付宝插花库",
+            "desc": "内部持续迭代和完善中，整理清晰确认的部分会同步到外部",
+            "modified_at": "2018-12-01 00:00:00",
+            "creator": "往尘",
+            "thumb": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+            "source": "https://gw.alipayobjects.com/os/rmsportal/TYQXRlAIHlzEsfAYwkDz.MP4",
+            "tag": "插画,支付宝",
+            "designer": "乌丸",
+            "star": 156,
+            "download": 156
+        },
+        {
+            "id": 123,
+            "category": "插画",
+            "title": "支付宝插花库",
+            "desc": "内部持续迭代和完善中，整理清晰确认的部分会同步到外部",
+            "modified_at": "2018-12-01 00:00:00",
+            "creator": "往尘",
+            "thumb": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+            "source": "https://gw.alipayobjects.com/os/rmsportal/TYQXRlAIHlzEsfAYwkDz.MP4",
+            "tag": "插画,支付宝",
+            "designer": "乌丸",
+            "star": 156,
+            "download": 156
+        },
+        {
+            "id": 123,
+            "category": "插画",
+            "title": "支付宝插花库",
+            "desc": "内部持续迭代和完善中，整理清晰确认的部分会同步到外部",
+            "modified_at": "2018-12-01 00:00:00",
+            "creator": "往尘",
+            "thumb": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+            "source": "https://gw.alipayobjects.com/os/rmsportal/TYQXRlAIHlzEsfAYwkDz.MP4",
+            "tag": "插画,支付宝",
+            "designer": "乌丸",
+            "star": 156,
+            "download": 156
+        },
+        {
+            "id": 123,
+            "category": "插画",
+            "title": "支付宝插花库",
+            "desc": "内部持续迭代和完善中，整理清晰确认的部分会同步到外部",
+            "modified_at": "2018-12-01 00:00:00",
+            "creator": "往尘",
+            "thumb": "http://larkdoc-assets.oss-cn-hangzhou-zmf.aliyuncs.com/avatar/qdvdfcq9l7yckwcur2mr_antcloud.jpg",
+            "source": "https://gw.alipayobjects.com/os/rmsportal/TYQXRlAIHlzEsfAYwkDz.MP4",
+            "tag": "插画,支付宝",
+            "designer": "乌丸",
+            "star": 156,
+            "download": 156
+        }
+    ]
+   }    
+}

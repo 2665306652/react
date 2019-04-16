@@ -1,0 +1,442 @@
+// 品牌规范二级类目  样式
+
+//双伪元素清除浮动
+.clearfix{zoom:1;}
+.clearfix:before,.clearfix:after{content:'';display:table;}
+.clearfix:after{clear:both;}
+
+.brandplanning {
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+    min-width: 1344px; 
+    overflow-x: auto;
+    // 要写组件的面包屑
+    .brandplanning-navMenu {
+        display: block;
+        box-sizing: border-box;
+        padding: 24px 0;
+        width:1320px;
+        margin:0 auto;
+        span {
+            font-size: 14px;
+            color: rgba(0,0,0,0.45);
+            line-height: 22px; 
+        }
+        .navMenu-current {
+            font-size: 14px;
+            color: #000000;
+            line-height: 22px;
+        }
+        
+    }
+    //内容部分
+    .brandplanning-content {
+        margin: 0px auto;
+        box-sizing: border-box;
+        background-color: #fff;
+        width:1320px;
+        min-width: 1320px;
+        min-height: 800px;
+        overflow: hidden;
+        position: relative;
+        // 左边定位
+        .conditionArea_Lfixed {
+            position: absolute;
+            left:0;
+            top: 0;
+            width: 175px;
+        }
+        // 左边导航栏
+        .bpContent-left {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 248px;
+            height: 100%;
+            padding-bottom: 40px;
+            box-sizing: border-box;
+            scrollbar-arrow-color: #fff; 
+            scrollbar-face-color: #fff; 
+            scrollbar-3dlight-color: #fff; 
+            scrollbar-highlight-color: #fff; 
+            scrollbar-shadow-color: #fff; 
+            scrollbar-darkshadow-color: #fff; 
+            scrollbar-track-color: #fff; 
+            scrollbar-base-color:#fff; 
+            ::-webkit-scrollbar{
+                width:2px;
+                height:100%;
+                }
+                ::-webkit-scrollbar-track-piece { //滚动条凹槽的颜色，还可以设置边框属性
+                background-color:#f8f8f8;
+                }
+                ::-webkit-scrollbar {//滚动条的宽度
+                width:0px;
+                height:100%;
+                }
+                ::-webkit-scrollbar-thumb {//滚动条的设置
+                background-color:#fff;
+                background-clip:padding-box;
+                // min-height:28px;
+                }
+                ::-webkit-scrollbar-thumb:hover {
+                background-color:#fff;
+                }
+                .ulClass {
+                    position: fixed;
+                    top: 0;
+                }
+            .bpContent-leftBox {
+                width: 248px;
+                height: 100%;
+                border-right:1px solid #ccc; 
+                ul{
+                    list-style: none;
+                    max-height: 80vh;
+                    margin: 0;
+                    padding: 0;
+                    padding-top: 23px;
+                    box-sizing: border-box;
+                    overflow: auto;
+                    overflow-x: hidden;
+                    .nav-item {
+                        display: block;
+                        list-style: none;
+                        width: 248px;
+                        padding: 9px 0;
+                        margin: 9px 0;
+                        padding-left: 30px;
+                        text-align: left;
+                        cursor: pointer;
+                        overflow-x: hidden;/*超出部分隐藏*/
+                        white-space: nowrap;/*不换行*/
+                        text-overflow:ellipsis;
+                        box-sizing: border-box;
+                        opacity: 0.65;
+                        font-family: PingFangSC-Regular;
+                        font-size: 14px;
+                        color: #000000;
+                        line-height: 22px;
+                    }
+                    a{
+                        text-decoration:none;
+                        }
+                        a:link{
+                        text-decoration:none;
+                        }
+                        a:visited{
+                        text-decoration:none;
+                        }
+                        a:hover{
+                        text-decoration:none;
+                        }
+                        a:active{
+                        text-decoration:none;
+                        }
+                    .active {
+                        background-color: #E5F7FF;;
+                        border-right: 2px solid #1890FF;
+                        margin-right: -1px;
+                        color: #1890FF ;
+                        font-family: PingFangSC-Medium;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+       
+        // 自适应内容
+        .bpContent-middle {
+            height: 100%;
+            width: 100%;
+            padding-left: 248px;
+            padding-right: 151px;
+            
+            .bpCmiddle-content {
+
+                h1,h2,h3,h4,h5,h6{
+                    margin: 32px 0 15px 0;
+                    font-weight: bold;
+                }
+                padding: 0px 70px 0px 55px;
+                .bpCmiddle-content-title {
+                    font-family: PingFangSC-Medium;
+                    // font-size: 16px;
+                    // color: rgba(0,0,0,0.85);
+                    // line-height: 24px;
+                    // margin-bottom: 12px;
+                    // font-weight: 500;
+                    color: rgba(0, 0, 0, 0.85);
+                    font-weight: 500;
+                    margin: 32px 0 12px 0;
+                    font-weight: bold;
+                }
+                .bpCmiddle-content-description {
+                    font-family: PingFangSC-Regular;
+                    font-size: 14px;
+                    color: rgba(0,0,0,0.65);
+                    line-height: 24px;
+                    margin: 0;
+                }
+                .bpCmiddle-content-segmentation {
+                    display: block;
+                    width: 100%;
+                    height: 1px;
+                    margin: 33px 0;
+                    background-color: #E8E8E8;;
+                }
+
+                .mContent-title {
+                    font-size: 14px;
+                    color: rgba(0,0,0,0.85);
+                    line-height: 24px;
+                    margin-bottom: 12px;
+                }
+                .mContent-presentation {
+                    font-size: 14px;
+                    color: rgba(0,0,0,0.65);
+                    line-height: 24px;
+                }
+                .mContent-string {
+                    display: block;
+                    margin: 32px 0;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #ccc;
+                }
+                .mContent-txt {
+                    margin-top: 30px;
+                    h3 {
+                        font-size: 16px;
+                        color: rgba(0,0,0,0.85);
+                        line-height: 24px;
+                    }
+                    ul {
+                        list-style: none;
+                        li {
+                            border: 1px solid #E8E8E8;
+                            margin: 20px 0;
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 10px 10px;
+                            font-size: 14px;
+                            color: rgba(0,0,0,0.65);
+                            line-height: 33px;
+                            .iconfont{
+                                font-size: 18px;
+                                padding: 0 20px;
+                              }
+                        }
+                    }
+                }
+                .mContent-img {
+                    h3 {
+                        font-size: 16px;
+                        color: rgba(0,0,0,0.85);
+                        line-height: 24px;
+                        margin: 0 0 18px;
+                    }
+                    img {
+                        width: 100%;
+                        margin-bottom: 18px;
+                    }
+                }
+            };
+            h2 {
+                margin: 32px 0;
+                font-size:14px;
+            }
+            
+            // 设置请求回来的html的样式
+          
+            img {
+                width: 100%;
+            }
+            strong {
+                display: inline-block;
+                padding: 10px 0;
+            }
+             
+            }
+            div[data-type="file"]{
+                border: 1px solid #E8E8E8;
+                margin: 20px 0;
+                justify-content: space-between;
+                padding: 0px 10px;
+                height: 60px;
+                line-height: 60px;
+                .name {
+                    font-size: 14px;
+                    color: rgba(0,0,0,0.65);
+                    float: left;
+                    line-height: 60px;
+                    margin-left: 18px;
+                }
+                .download {
+                    font-size: 14px;
+                    padding-right: 44px;
+                    color: #fff;
+                    float: right;
+                    line-height: 60px;
+                    background: url("../../public/image/download.png") center center
+                    no-repeat;
+                    height: 24px;
+                    margin-top: 17px;
+                    // background-size: contain;
+                    background-size: 19% 94%;
+                }
+                .preview {
+                    font-size: 14px;
+                    padding: 10px 20px;
+                    color: #666666;
+                    display: none;
+                }
+                .size {
+                    display: inline-block;
+                    font-size: 14px;
+                    color: rgba(0,0,0,0.65);
+                    line-height: 33px;
+                }
+                .icon  {
+                    font-size: 26px;
+                    padding: 10px 18px 0 11px;
+                    display: block;
+                    float: left;
+                    /* height: 44px; */
+                    height: 26.3px;
+                    width: 26.3px;
+                    margin-top: 18px;
+                    background-color: black;
+                    background-position-y: 0%;
+                }
+                .icon-pdf {
+                    background: url("../../public/image/pdf.png") center center
+                    no-repeat;
+                    background-size: contain;
+                }
+                .icon-ai {
+                    background: url("../../public/image/al.png") center center
+                    no-repeat;
+                    background-size: contain;
+                }
+                .icon-ps {
+                    background: url("../../public/image/ps.png") center center
+                    no-repeat;
+                    background-size: contain;
+                }
+            }
+
+            hr[data-type="brr"]{
+                margin: 32px 0 0;
+                border:1px solid #E8E8E8;
+            }
+        }
+        // 右边定位
+        .conditionArea_Rfixed {
+        position: absolute;
+        right: 0;
+        top: 0;
+        overflow-x: hidden;
+        }
+        // 右边锚点
+        .bpContent-right {
+            width: 151px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            a {
+                font-family: PingFangSC-Regular;
+                font-size: 12px;
+                color: #666666;
+                text-align: left;
+            }
+            a:link{
+                text-decoration:none;
+                }
+                a:visited{
+                text-decoration:none;
+                }
+                a:hover{
+                text-decoration:none;
+                }
+                a:active{
+                text-decoration:none;
+                }
+            .bpContent-rightBox {
+                width: 151px;
+                height: 100%;
+                .ant-anchor-ink-ball {
+                    width: 1px;
+                    height: 16px;
+                    border: 1px solid #1890ff;
+                    top: 2px;
+                    margin-top: -2px;
+                }
+                .ant-anchor-link {
+                    font-size: 12px;
+                    color: #666666;
+                    text-align: left;
+                    // margin-bottom: 7px;
+                    height: 20px;
+                    padding: 0; 
+                    line-height: 20px;
+                    cursor: pointer;
+                    padding-left: 25px;  
+                     
+                }
+                .ant-anchor-ink:before {
+                    width: 1px;
+                    background-color: #E9E9E9;
+                }
+                .ant-anchor-link-active a{
+                    color: #1890FF ;
+                }
+                .ant-anchor-wrapper {
+                    padding-top: 37px;
+                    overflow-y: hidden;
+                }
+            }
+            
+            
+        }
+        
+        // 收藏
+        .collect {
+            width: 110px;
+            height: 36px;
+            margin: 0 auto;
+            margin-top: 31px;
+            margin-bottom: 48px;
+            margin-left: 42%;
+            border: 1px solid #ccc;
+            line-height: 36px;
+            text-align: center;
+            box-sizing: border-box;
+            cursor: pointer;
+            border-radius: 4px;
+            overflow: hidden;
+            span {
+                font-size: 16px;
+                color: rgba(0,0,0,0.65);
+            }
+            .collect-star {
+                font-size: 16px;
+                margin-right: 7px;
+                font-family:"iconfont" !important;
+                font-style:normal;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            .Tcollect-star {
+                font-family:"iconfont" !important;
+                font-style:normal;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                color: #fff;
+                font-size: 16px;
+                margin-right: 7px;
+            }
+        }
+    }
+

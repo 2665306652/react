@@ -1,0 +1,36 @@
+{
+  "data": {
+    "list": [
+      {
+        "username": "肖遥",
+        "phone": "15927573122",
+        "role": 2
+      },
+      {
+        "username": "帅东",
+        "phone": "15827573122",
+        "role": 1
+      },
+      {
+        "username": "小飞",
+        "phone": "13227573422",
+        "role": 3
+      },
+      {
+        "username": "肖遥2",
+        "phone": "15927573322",
+        "role": 1
+      },
+      {
+        "username": "肖遥3",
+        "phone": "15927573222",
+        "role": 3
+      },
+      {
+        "username": "肖遥4",
+        "phone": "15927573022",
+        "role": 3
+      }
+    ]
+  }
+}

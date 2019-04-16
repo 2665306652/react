@@ -1,0 +1,16 @@
+/node_modules/
+*/.DS_Store
+.idea
+.git
+.DS_Store
+../.DS_Store
+.vscode
+../.idea/
+.git
+__MACOSX
+node_modules/
+npm-debug.log.*
+npm-debug.log
+./runtime
+/server/runtime
+/web/index.php

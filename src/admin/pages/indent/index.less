@@ -1,0 +1,57 @@
+.indent {
+    min-width: 1270px;
+    .Search {
+        padding: 20px;
+        display: flex;
+        height: 72px;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        .icon {
+            position: absolute;
+            left: 250px;
+            opacity: 0.5;
+        }
+    }
+    .searchList {
+        div {
+            width: 33%;
+            display: inline-block;
+            padding: 15px;
+            padding-bottom: 0;
+            span {
+                display: inline-block;
+                vertical-align: middle;
+                vertical-align: -webkit-baseline-middle;
+            }
+            .ant-input-affix-wrapper {
+                width: 82%;
+                float: right;
+            }
+        }
+        .timeData {
+            width: 33%;
+            display: inline-block;
+            padding: 15px;
+            padding-bottom: 0;
+            .ant-calendar-picker {
+                width: 82%;
+                float: right;
+                div {
+                    padding: 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .indentOperation {
+        height: 32px;
+        margin: 15px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: flex-end;
+        Button {
+            margin: 0 28px;
+        }
+    }
+}

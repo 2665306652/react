@@ -1,0 +1,136 @@
+.ant-dropdown-menu{
+	background: rgba(255,255,255,0.95) !important;
+	border: 1px solid #E4E4E4 !important;
+}
+.ant-dropdown-menu-item:hover{
+	background-color:rgba(240,240,240,0.95) !important;
+}
+.header-user-home{
+	font-family: 'PingFangSC-Regular', 'Microsoft Yahei',"微软雅黑";
+	font-size: 14px !important;
+	color: rgba(0,0,0,0.65) !important;
+	letter-spacing: 0;
+}
+.head-seek{
+	display: flex;
+	align-items: center;
+	.avatar-hunt{
+		width:174px;
+		height:30px;
+		display: inline-block;
+		margin:0;
+		padding:0;
+		margin-right:18px;
+		overflow: hidden;
+		position: relative;
+		.seek{
+			position: absolute;
+			top:50%;
+			right:6px;
+			transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			-moz-transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			-o-transform: translateY(-50%);
+			cursor: pointer;
+			z-index: 2;
+		}
+		.hunt-input{
+			background:  #F0F2F5;
+			border-radius: 4px;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			width:174px;
+			height:30px;
+			padding:5px 16px 5px 37px;
+			border:0;
+			font-family: 'PingFangSC-Regular', 'Microsoft Yahei',"微软雅黑";
+			font-size: 14px;
+			color: rgba(0,0,0,0.40);
+			box-sizing: border-box !important;
+			outline:none;
+			position: absolute;
+			right:-174px;
+			z-index: 1;
+		}
+		.seek-anm{
+			animation:anim 0.3s 0.1s linear forwards;
+			-webkit-animation:anim 0.3s 0.1s linear forwards; /* Safari 和 Chrome */
+		}
+		.hunt-input-anm{
+			animation:myinp 0.4s linear forwards;
+			-webkit-animation:myinp 0.4s linear forwards; /* Safari 和 Chrome */
+		}
+		@keyframes anim{
+			from {right:6px;}
+			to {right:145px;}
+		}
+		@-moz-keyframes anim{
+			from {right:6px;}
+			to {right:145px;}
+		}
+		@-webkit-keyframes anim{
+			from {right:6px;}
+			to {right:145px;}
+		}
+		@-o-keyframes anim{
+			from {right:6px;}
+			to {right:145px;}
+		}
+		@keyframes myinp{
+			from {right:-174px;}
+			to {right:0px;}
+		}
+		@-moz-keyframes myinp{
+			from {right:-174px;}
+			to {right:0px;}
+		}
+		@-webkit-keyframes myinp{
+			from {right:-174px;}
+			to {right:0px;}
+		}
+		@-o-keyframes myinp{
+			from {right:-174px;}
+			to {right:0px;}
+		}
+	}
+	a{
+		color:#fff;
+	}
+	.upload{
+		display: block;
+		background: #1890FF;
+		border-radius: 12px;
+		width:62px;
+		height:24px;
+		color:#fff;
+		text-align: center;
+		line-height: 24px;
+		cursor: pointer;
+		.iconfont{
+			font-size: 12px;
+			margin-right:3px;
+		}
+	}
+	.ant-dropdown-link{
+		display:block;
+		opacity: 1 !important;
+		margin-left:24px;
+		cursor: pointer;
+	}
+	.user-avatar{
+		display: inline-block;
+		width:24px;
+		height:24px;
+		background-color:#e8e8e8;
+		border-radius:50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+	}
+	.head-user-name{
+		display:inline-block;
+		color: rgba(0,0,0,0.65);
+		margin-left:8px;
+		font-family: 'PingFangSC-Regular', 'Microsoft Yahei',"微软雅黑";
+	}
+}

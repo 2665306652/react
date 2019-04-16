@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.typeList {
+    padding: 24px;
+}
+
+.type_add {
+    // float: right;
+    // margin-right: 200px;
+    margin-left: 93%;
+}
+
+.tree-main {
+    width: 100%;
+    overflow: hidden;
+    line-height: 30px;
+    font-size: 16px;
+    .tree-item {
+        overflow: hidden;
+        .tree-item {
+            padding-left: 20px;
+        }
+    }
+    .tree-title {
+        // padding-left:10px;
+        cursor: pointer;
+        .tree-toggle {
+            font-size: 12px;
+            padding: 0 5px;
+        }
+        .tree-placeholder {
+            display: inline-block;
+            width: 22px;
+            height: 20px;
+            padding: 0 5px;
+        }
+        .tree-text {
+            display: inline-block;
+        }
+    }
+}
+
+.editMain {
+    height: 200px;
+    .editSelect {
+        span {
+            display: block;
+        }
+        .select-title {
+            display: block;
+            margin: 5px auto;
+        }
+        input {
+            width: 100%;
+        } //    margin:20px auto; 
+    }
+}
+
+.custom-tree-list {
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    li {
+        position: relative;
+        padding: 4px 0;
+        margin:  0 ;
+        list-style: none;
+        white-space: nowrap;
+        outline: 0;
+        cursor: pointer;
+    }
+    .tree-line{
+        // padding-left:20px;
+    }
+    .tree-line:not(:last-child):before {
+        content: ' ';
+        width: 1px;
+        border-left: 1px solid #2592FC;
+        height: 100%;
+        position: absolute;
+        left: 12px;
+        margin: 22px 0;
+    }
+    .main-title {
+        margin-top: 0;
+        margin-bottom: 0;
+        width:100%;
+        height: 35px;
+        line-height: 35px;
+        // border: 1px solid #999;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        i{
+            margin-right:5px;
+        }
+    }
+    .tree-text{
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        margin:5px auto;
+    }
+    .tree-text i{
+        margin-right:5px;
+       
+    }
+    .title-icon{
+        background-color: #f0f0f0;
+        padding:5px 0 8px 5px;
+        position: relative;
+        cursor: pointer;
+    }
+    .title-edit{
+        padding-left:10px;
+        cursor: pointer;
+        font-size: 12px;
+        float:right;
+        i{
+            font-style: normal;
+            color: #2592FC;
+        }
+        i:hover{
+            text-decoration: underline;
+        }
+        .edit-del{
+            padding-left:5px;
+        }
+        
+    }
+    .main-content {
+        width: 100%;
+        padding-left: 20px;
+        .tree-main {}
+    }
+}

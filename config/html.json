@@ -1,0 +1,22 @@
+[
+
+   
+   
+    {
+        "note": "后台管理",
+        "name": "index",
+        "entry": "/src/admin/pages/index/index.js",
+        "chunks": ["vendor","group","index"],
+        "template": "/src/admin/pages/index/index.html"
+    },
+    {
+        "note": "登录",
+        "name": "login",
+        "entry": "/src/admin/pages/login/index.js",
+        "chunks": ["vendor","group","login"],
+        "template": "/src/admin/pages/login/index.html"
+    }
+
+    
+   
+]

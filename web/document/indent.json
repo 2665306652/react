@@ -1,0 +1,163 @@
+{
+    "data":[
+        {
+           "id": "1",
+            "key": "1",
+            "province": "浙江省",
+            "community": "碧桂园",
+            "sellerName": "三桂辣条店",
+            "shopName": "辣条",
+            "number": "3888",
+            "money": "888美元",
+            "dealTime": "2018-12-19 00:00:00",
+            "state": "完成",
+            "tags": ["loser"]
+        },
+        {
+            "id": "2",
+             "key": "2",
+             "province": "河南省",
+             "community": "春风还原16栋302室",
+             "sellerName": "三桂辣条店",
+             "shopName": "辣条",
+             "number": "3888",
+             "money": "888美元",
+             "dealTime": "2018-12-19 00:00:00",
+             "state": "完成",
+             "tags": ["loser"]
+         },
+         {
+            "id": "3",
+             "key": "3",
+             "province": "浙江省",
+             "community": "碧桂园",
+             "sellerName": "三桂辣条店",
+             "shopName": "辣条",
+             "number": "3888",
+             "money": "888美元",
+             "dealTime": "2018-12-19 00:00:00",
+             "state": "完成",
+             "tags": ["loser"]
+         },
+         {
+            "id": "4",
+             "key": "4",
+             "province": "浙江省",
+             "community": "碧桂园",
+             "sellerName": "三桂辣条店",
+             "shopName": "辣条",
+             "number": "3888",
+             "money": "888美元",
+             "dealTime": "2018-12-19 00:00:00",
+             "state": "完成",
+             "tags": ["loser"]
+         },
+
+         {
+            "id": "5",
+             "key": "5",
+             "province": "浙江省",
+             "community": "碧桂园",
+             "sellerName": "三桂辣条店",
+             "shopName": "辣条",
+             "number": "3888",
+             "money": "888美元",
+             "dealTime": "2018-12-19 00:00:00",
+             "state": "完成",
+             "tags": ["loser"]
+         },
+         {
+            "id": "6",
+             "key": "6",
+             "province": "浙江省",
+             "community": "碧桂园",
+             "sellerName": "三桂辣条店",
+             "shopName": "辣条",
+             "number": "3888",
+             "money": "888美元",
+             "dealTime": "2018-12-19 00:00:00",
+             "state": "完成",
+             "tags": ["loser"]
+         },
+         {
+            "id": "7",
+             "key": "7",
+             "province": "浙江省",
+             "community": "碧桂园",
+             "sellerName": "三桂辣条店",
+             "shopName": "辣条",
+             "number": "3888",
+             "money": "888美元",
+             "dealTime": "2018-12-19 00:00:00",
+             "state": "完成",
+             "tags": ["loser"]
+         },
+         {
+            "id": "8",
+             "key": "8",
+             "province": "浙江省",
+             "community": "碧桂园",
+             "sellerName": "三桂辣条店",
+             "shopName": "辣条",
+             "number": "3888",
+             "money": "888美元",
+             "dealTime": "2018-12-19 00:00:00",
+             "state": "完成",
+             "tags": ["loser"]
+         },
+
+         {
+            "id": "9",
+             "key": "9",
+             "province": "浙江省",
+             "community": "碧桂园",
+             "sellerName": "三桂辣条店",
+             "shopName": "辣条",
+             "number": "3888",
+             "money": "888美元",
+             "dealTime": "2018-12-19 00:00:00",
+             "state": "完成",
+             "tags": ["loser"]
+         },
+
+         {
+            "id": "10",
+             "key": "10",
+             "province": "浙江省",
+             "community": "碧桂园",
+             "sellerName": "三桂辣条店",
+             "shopName": "辣条",
+             "number": "3888",
+             "money": "888美元",
+             "dealTime": "2018-12-19 00:00:00",
+             "state": "完成",
+             "tags": ["loser"]
+         },
+         {
+            "id": "11",
+             "key": "11",
+             "province": "浙江省",
+             "community": "碧桂园",
+             "sellerName": "三桂辣条店",
+             "shopName": "辣条",
+             "number": "3888",
+             "money": "888美元",
+             "dealTime": "2018-12-19 00:00:00",
+             "state": "完成",
+             "tags": ["loser"]
+         },
+         {
+            "id": "12",
+             "key": "12",
+             "province": "浙江省",
+             "community": "碧桂园",
+             "sellerName": "三桂辣条店",
+             "shopName": "辣条",
+             "number": "3888",
+             "money": "888美元",
+             "dealTime": "2018-12-19 00:00:00",
+             "state": "完成",
+             "tags": ["loser"]
+         }
+    ]
+}

@@ -1,0 +1,81 @@
+.details-content {
+  input {
+    outline: none;
+  }
+  .avatar-uploader > .ant-upload {
+    width: 128px;
+    height: 128px;
+  }
+
+  .details-list {
+    width: 550px;
+    height: 650px;
+    padding-top: 20px;
+
+    .msg-error {
+      border-color: red !important;
+    }
+
+    .photo-style {
+      position: relative;
+      display: flex;
+      line-height: 100px;
+      .details-photo {
+        // flex: 1;
+        margin-left: 112px;
+        border-radius: 100px;
+        overflow: hidden;
+      }
+    }
+    .inputStyle {
+      position: absolute;
+      left: 181px;
+      top: 0px;
+      width: 100px;
+      height: 100px;
+      opacity: 0;
+      cursor: pointer;
+      z-index: 3;
+    }
+
+    .imgStyle {
+      border: 1px dashed #d9d9d9;
+      border-radius: 50px;
+      background-color: #fafafa;
+      text-align: center;
+      position: relative;
+      left: 112px;
+    }
+
+    .detailsList-div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      .RadioGroup {
+        margin-right: -6px;
+      }
+
+      .detailsList-span {
+        padding-left: 20px;
+      }
+    }
+    .Button {
+      display: block;
+      text-align: center;
+      padding-top: 20px;
+      padding-left: 150px;
+      .hideFont {
+        color: red;
+        font-size: 16px;
+        font-weight: 600;
+        height: 20px;
+      }
+
+      .Buttonstyles {
+        width: 100px;
+        height: 40px;
+      }
+    }
+  }
+}
